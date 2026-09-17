@@ -1,0 +1,101 @@
+{
+  "name": "liken",
+  "owner": {
+    "name": "liken",
+    "url": "https://liken.sh"
+  },
+  "metadata": {
+    "description": "The skills to run a liken cluster and the operators on it: one plugin per repository, and one bundle that installs them all."
+  },
+  "plugins": [
+    {
+      "name": "everything",
+      "source": "./everything",
+      "description": "Every liken skill in one install: the operating system and every operator.",
+      "author": {
+        "name": "liken",
+        "url": "https://liken.sh"
+      }
+    },
+    {
+      "name": "liken",
+      "source": {
+        "source": "github",
+        "repo": "liken-sh/liken"
+      },
+      "description": "Install, grow, upgrade, roll back, and troubleshoot a liken cluster, and give a workload a device."
+    },
+    {
+      "name": "media",
+      "source": {
+        "source": "github",
+        "repo": "liken-sh/media-operator"
+      },
+      "description": "Install media-operator, map a controller, and hand a Player's idle screen to another operator."
+    },
+    {
+      "name": "display",
+      "source": {
+        "source": "github",
+        "repo": "liken-sh/display-operator"
+      },
+      "description": "Install display-operator, put a window on a screen, and lay out regions on one monitor."
+    },
+    {
+      "name": "audio",
+      "source": {
+        "source": "github",
+        "repo": "liken-sh/audio-operator"
+      },
+      "description": "Install audio-operator, play sound to an output, pair sound with its screen, and set resting levels."
+    },
+    {
+      "name": "bluetooth",
+      "source": {
+        "source": "github",
+        "repo": "liken-sh/bluetooth-operator"
+      },
+      "description": "Install bluetooth-operator and pair a controller for a pod."
+    },
+    {
+      "name": "library",
+      "source": {
+        "source": "github",
+        "repo": "liken-sh/library-operator"
+      },
+      "description": "Install library-operator, declare libraries, scan, enrich, connect Jellyfin and the *arr webhooks, and put the browser on a screen."
+    },
+    {
+      "name": "people",
+      "source": {
+        "source": "github",
+        "repo": "liken-sh/people-operator"
+      },
+      "description": "Install the Person resource definition."
+    },
+    {
+      "name": "equipment",
+      "source": {
+        "source": "github",
+        "repo": "liken-sh/equipment-operator"
+      },
+      "description": "Install equipment-operator and declare a Receiver under a Player."
+    },
+    {
+      "name": "git-csi",
+      "source": {
+        "source": "github",
+        "repo": "liken-sh/git-csi-driver"
+      },
+      "description": "Install git-csi-driver and mount git repositories as read-only or writeable volumes."
+    },
+    {
+      "name": "per-node",
+      "source": {
+        "source": "github",
+        "repo": "liken-sh/per-node-csi-driver"
+      },
+      "description": "Install per-node-csi-driver for replicated stores and named caches."
+    }
+  ]
+}

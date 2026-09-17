@@ -1,0 +1,20 @@
+{
+  "name": "everything",
+  "description": "Every liken skill in one install: the operating system and every operator.",
+  "dependencies": [
+    "liken",
+    "media",
+    "display",
+    "audio",
+    "bluetooth",
+    "library",
+    "people",
+    "equipment",
+    "git-csi",
+    "per-node"
+  ],
+  "author": {
+    "name": "liken",
+    "url": "https://liken.sh"
+  }
+}
