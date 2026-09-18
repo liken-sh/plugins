@@ -35,7 +35,7 @@ plugin names are:
 | `git-csi` | [git-csi-driver](https://github.com/liken-sh/git-csi-driver) |
 | `per-node` | [per-node-csi-driver](https://github.com/liken-sh/per-node-csi-driver) |
 
-`everything` holds no skills of its own. It depends on every plugin
+`everything` contains no skills of its own. It depends on every plugin
 above, and Claude Code installs its dependencies with it.
 
 ## Where the skills come from
@@ -51,9 +51,9 @@ The design is `plans/01-guides-as-skills.md` in that repository.
 ## Versions
 
 Every entry follows its repository's `main`. An install or an update
-takes whatever the guides say today, and there is no pinned set that
-was tested together. That is a choice for now: a pinned catalog would
-need a commit here for every release of every repository.
+uses the guides currently on that branch. The catalog has no pinned set
+that was tested together. A pinned catalog would need a commit here for
+every release of every repository.
 
 ## Other agents
 
