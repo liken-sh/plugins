@@ -33,6 +33,7 @@ plugin names are:
 | `library` | [`library-operator/`](https://github.com/liken-sh/liken/tree/main/library-operator) |
 | `people` | [`people-operator/`](https://github.com/liken-sh/liken/tree/main/people-operator) |
 | `equipment` | [`equipment-operator/`](https://github.com/liken-sh/liken/tree/main/equipment-operator) |
+| `observatory` | [`observatory-operator/`](https://github.com/liken-sh/liken/tree/main/observatory-operator) |
 | `git-csi` | [`git-csi-driver/`](https://github.com/liken-sh/liken/tree/main/git-csi-driver) |
 | `per-node` | [`per-node-csi-driver/`](https://github.com/liken-sh/liken/tree/main/per-node-csi-driver) |
 

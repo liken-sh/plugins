@@ -90,6 +90,15 @@
       "description": "Install equipment-operator and declare a Receiver under a Player."
     },
     {
+      "name": "observatory",
+      "source": {
+        "source": "git-subdir",
+        "url": "liken-sh/liken",
+        "path": "observatory-operator"
+      },
+      "description": "Install observatory-operator, describe astronomy equipment, connect it, reserve a telescope, and guide with PHD2."
+    },
+    {
       "name": "git-csi",
       "source": {
         "source": "git-subdir",
