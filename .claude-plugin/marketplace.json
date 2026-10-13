@@ -99,6 +99,15 @@
       "description": "Install observatory-operator, describe astronomy equipment, connect it, reserve a telescope, and guide with PHD2."
     },
     {
+      "name": "astrophotography",
+      "source": {
+        "source": "git-subdir",
+        "url": "liken-sh/liken",
+        "path": "astrophotography-operator"
+      },
+      "description": "Install astrophotography-operator, declare targets, set up a plate solver, and image a target into your archive."
+    },
+    {
       "name": "git-csi",
       "source": {
         "source": "git-subdir",

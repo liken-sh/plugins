@@ -1,7 +1,7 @@
 # liken plugins
 
 This repository is the catalog of liken's Agent Skills for Claude
-Code. Each component of the [liken](https://github.com/liken-sh/liken)
+Code and Codex. Each component of the [liken](https://github.com/liken-sh/liken)
 repository emits its how-to guides as skills, in a `skills/` directory
 in the component's own directory. This catalog lists those components
 so one command installs them.
@@ -34,6 +34,7 @@ plugin names are:
 | `people` | [`people-operator/`](https://github.com/liken-sh/liken/tree/main/people-operator) |
 | `equipment` | [`equipment-operator/`](https://github.com/liken-sh/liken/tree/main/equipment-operator) |
 | `observatory` | [`observatory-operator/`](https://github.com/liken-sh/liken/tree/main/observatory-operator) |
+| `astrophotography` | [`astrophotography-operator/`](https://github.com/liken-sh/liken/tree/main/astrophotography-operator) |
 | `git-csi` | [`git-csi-driver/`](https://github.com/liken-sh/liken/tree/main/git-csi-driver) |
 | `per-node` | [`per-node-csi-driver/`](https://github.com/liken-sh/liken/tree/main/per-node-csi-driver) |
 
@@ -60,9 +61,21 @@ component's directory, with the guides currently on that branch. The
 catalog has no pinned set that was tested together. A pinned catalog
 would need a commit here for every release of liken.
 
+## Codex
+
+Codex reads the same catalog, but it does not install a plugin's
+dependencies, so `everything` gives Codex no skills. Add each plugin
+by name:
+
+```sh
+codex plugin marketplace add liken-sh/plugins
+codex plugin add observatory@liken
+codex plugin add astrophotography@liken
+```
+
 ## Other agents
 
-The catalog is for Claude Code. Any agent that reads the
+Any other agent that reads the
 [Agent Skills](https://agentskills.io/) format can take a component's
 `skills/` directory directly, for example with
 `npx skills add https://github.com/liken-sh/liken/tree/main/media-operator`.
