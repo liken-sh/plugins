@@ -35,6 +35,7 @@ plugin names are:
 | `equipment` | [`equipment-operator/`](https://github.com/liken-sh/liken/tree/main/equipment-operator) |
 | `observatory` | [`observatory-operator/`](https://github.com/liken-sh/liken/tree/main/observatory-operator) |
 | `astrophotography` | [`astrophotography-operator/`](https://github.com/liken-sh/liken/tree/main/astrophotography-operator) |
+| `firmware` | [`firmware-operator/`](https://github.com/liken-sh/liken/tree/main/firmware-operator) |
 | `git-csi` | [`git-csi-driver/`](https://github.com/liken-sh/liken/tree/main/git-csi-driver) |
 | `per-node` | [`per-node-csi-driver/`](https://github.com/liken-sh/liken/tree/main/per-node-csi-driver) |
 

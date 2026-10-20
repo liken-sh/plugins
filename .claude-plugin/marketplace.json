@@ -108,6 +108,15 @@
       "description": "Install astrophotography-operator, declare targets, set up a plate solver, and image a target into your archive."
     },
     {
+      "name": "firmware",
+      "source": {
+        "source": "git-subdir",
+        "url": "liken-sh/liken",
+        "path": "firmware-operator"
+      },
+      "description": "Install firmware-operator, upload firmware to a USB device each time it appears, find firmware updates, and approve one."
+    },
+    {
       "name": "git-csi",
       "source": {
         "source": "git-subdir",
